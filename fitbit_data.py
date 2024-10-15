@@ -10,7 +10,7 @@ load_dotenv()
 access_token = os.getenv('ACCESS_TOKEN')
 
 # Headers for API request
-headers = {'Authorization': f'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyM1BMOUQiLCJzdWIiOiJDODcyRE4iLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJzZXQgcmFjdCBybG9jIHJ3ZWkgcmhyIHJwcm8gcm51dCByc2xlIiwiZXhwIjoxNzI4OTg0NTIxLCJpYXQiOjE3Mjg5NTU3MjF9.cqAy4uMtSPzTll-G7z8aw5tpCQSMA8EwQoeOyB0MLms'}
+headers = {'Authorization': f'Bearer [ACESS_TOKEN]'}
 
 
 def get_user_steps(date):
